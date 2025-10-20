@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mapGen Hipertensão | Genis - Genetic Innovative Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configuração de classes personalizadas e cores vibrantes da Genis -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'genis-azul': '#073eab', // Azul vibrante
+                        'genis-verde': '#0e7333', // Verde vibrante
+                        'genis-roxo': '#6514b5', // Roxo vibrante
+                        'genis-laranja': '#e86e1a', // Laranja vibrante
+                        'genis-cinza': '#374151',
+                        'branco': '#fdfcff',
+			'cinza-claro': '#d5d4d9',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <!-- Fonte Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos customizados para formas orgânicas e vazadas */
+        .hollow-circle {
+            position: absolute;
+            border-radius: 50%;
+            border: 4px solid;
+            opacity: 0.3;
+            z-index: 0;
+            pointer-events: none;
+        }
+
+        .cta-button {
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-white font-sans text-gray-800 antialiased overflow-x-hidden">
+
+    <!-- Cabeçalho e Chamada Principal -->
+    <header class=" mx-auto px-4 py-2 md:py-2 flex justify-between items-center z-10">
+        <a href="#" class="flex items-center space-x-3">
+            <img src="Logo_Principal.png" class="w-32 h-auto md:w-40 lg:w-48">
+        </a>
+    </header>
+
+        
+        <!-- Título Principal -->
+        <section class="text-center px-8 md:px-16 lg:px-32">
+            <h1 class="text-2xl md:text-5xl lg:text-6xl text-genis-azul mb-4 leading-tight">
+                <b>mapGen Hipertensão:</b> Genética Aplicada à Prática Clínica.
+            </h1>
+            <p class="md:text-2xl text-gray-600 mb-8 max-w-4xl mx-auto">
+                Painel genético voltado à personalização do tratamento da hipertensão e ao aprimoramento da conduta terapêutica, desenvolvido para o contexto populacional brasileiro.
+            </p>
+            <!-- CTA Imediato (Botão com canto arredondado) -->
+            <a href="#contato" class="cta-button inline-block bg-genis-roxo text-white font-semibold py-3 px-8 rounded-full text-lg hover:bg-genis-azul/90">
+                Quero Participar do Projeto Piloto
+            </a>
+        </section>
+
+        <!-- O Problema & A Solução (Design com formas arredondadas e imagem de diversidade) -->
+        <section class="grid md:grid-cols-2 gap-12 items-center mb-20 bg-gray-50 p-8 rounded-xl shadow-lg">
+            
+            <!-- Imagem de Diversidade e Bem-Estar em Ambiente Natural -->
+            <div class="relative">
+                <!-- Imagem em formato circular (mandatório), atualizado para refletir as diretrizes -->
+                <img src="eye-for-ebony-3dqSZidOkvs-unsplash.jpg" 
+                     class="w-full h-auto rounded-full shadow-2xl transition duration-500 ease-in-out transform hover:scale-105">
+            </div>
+
+            <div class="space-y-6">
+                <h2 class="text-3xl md:text-4xl font-bold" style="color:#e86e1a">Transformando o Conhecimento em Ação Clínica</h2>
+                <p class="text-lg text-gray-700">A Genis acredita que informações genéticas robustas, aliadas à inteligência artificial, são a chave para superar os desafios do tratamento da Hipertensão, especialmente em casos de alto risco.</p>
+    <p class="text-lg text-gray-700">O <b>mapGEN Hipertensão</b> é uma análise genética personalizada construída a partir de um Big Data científico estruturado a partir de estudos com hipertensos, buscando transformar o cuidado do paciente hipertenso, oferecendo suporte clínico, redução do tempo de ajuste terapêutico e maior adesão ao tratamento.</p>
+            </div>
+        </section>
+
+        <!-- Valor Unico -->
+        <section class="mb-20 bg-gray-50 p-8 rounded-xl shadow-lg">
+                <h1 class="text-xl text-center font-semibold text-genis-azul mt-2 mb-4">
+                Nossa Proposta de Valor Único:
+                </h3>
+                <ul class="list-disc list-inside text-center text-gray-700 space-y-2">
+                    <li> Variantes genéticas selecionadas com base em evidências cientificas robustas e representatividade do background genético brasileiro.</li>
+                    <li> Resultados clínicos integrados: farmacogenética, nutrigenética e riscos de comorbidades.</li>
+                    <li> Relatórios clínicos objetivos e alinhados às diretrizes terapêuticas nacionais.</li>
+                </ul>
+        </section>
+        
+        <!-- Benefícios Exclusivos para Médicos Parceiros -->
+        <section class="mb-20">
+            <h2 class="text-center text-3xl md:text-4xl text-genis-laranja mb-12">Por que Participar como Médico Parceiro?</h2>
+            <p class="text-center text-lg text-gray-600 mb-8 max-w-4xl mx-auto">Convidamos você a ser um agente de transformação, recebendo suporte completo da Genis para integrar a medicina de precisão em seu consultório.</p>
+
+            <div class="grid lg:grid-cols-3 gap-8">
+                
+                <!-- Bloco 1: Acesso gratuito à tecnologia -->
+                <div class="p-6 rounded-xl shadow-xl bg-genis-azul/5 border-b-3 border-genis-azul">
+                    <div class="w-16 h-16 rounded-full mx-auto flex items-center justify-center mb-4">
+                        <span class="text-white text-3xl">🔬</span>
+                    </div>
+                    <h3 class="text-2xl text-genis-cinza mb-3 text-center">Acesso Gratuito à Tecnologia</h3>
+                    <ul class="list-disc list-inside text-gray-700 text-center space-y-2">
+                        <li> Análise genética completa para seus pacientes.</li>
+                        <li> Relatórios personalizados e detalhados.</li>
+                        <li> Inovação no cuidado ao paciente.</li>
+                    </ul>
+                </div>
+
+                <!-- Bloco 2: Capacitação e Treinamento -->
+                <div class="p-6 rounded-xl shadow-xl bg-genis-azul/5 border-b-3 border-genis-azul">
+                    <div class="w-16 h-16 rounded-full mx-auto flex items-center justify-center mb-4">
+                        <span class="text-white text-3xl">📚</span>
+                    </div>
+                    <h3 class="text-2xl text-genis-cinza mb-3 text-center">Capacitação e Treinamento</h3>
+                    <ul class="list-disc list-inside text-gray-700 text-center space-y-2">
+                        <li> Workshop sobre interpretação de resultados genéticos.</li>
+                        <li> Material didático exclusivo para apoio clínico.</li>
+                        <li> Suporte contínuo durante o estudo.</li>
+                    </ul>
+                </div>
+
+                <!-- Bloco 3: Dados para a Prática Clínica -->
+                <div class="p-6 rounded-xl shadow-xl bg-genis-azul/5 border-b-3 border-genis-azul">
+                    <div class="w-16 h-16 rounded-full mx-auto flex items-center justify-center mb-4">
+                        <span class="text-white text-3xl">📈</span>
+                    </div>
+                    <h3 class="text-2xl font text-genis-cinza mb-3 text-center">Dados para a Prática Clínica</h3>
+                    <ul class="list-disc list-inside text-gray-700 text-center space-y-2">
+                        <li> Acompanhamento dos resultados dos seus pacientes.</li>
+                        <li> Maior assertividade no tratamento.</li>
+                        <li> Satisfação e adesão dos pacientes.</li>
+                    </ul>
+                </div>
+            </div>
+
+             <div class="flex justify-center">
+    <img src="etapas.png" 
+         alt="etapas do projeto"
+         class="max-w-full md:max-w-4xl rounded-xl shadow-lg my-8">
+  </div>
+
+        </section>
+           <!-- 5. Rigor Científico & Metodologia (Fluxograma Arredondado) -->
+        <section class="mb-20">
+            <h2 class="text-center text-3xl md:text-4xl text-genis-laranja mb-12">As Etapas Metodológicas</h2>
+            
+             <div class="flex justify-center">
+    <img src="fluxograma.png" 
+         alt="Fluxograma do projeto"
+         class="max-w-full md:max-w-4xl rounded-xl shadow-lg my-8">
+  </div>
+
+
+</section>
+
+        <!-- Perfil dos pacientes -->
+        <section class="mb-20 bg-gray-50 p-8 rounded-xl shadow-lg">
+            <h2 class="text-center text-3xl md:text-4xl text-genis-laranja mb-8">Perfil dos Pacientes Ideais</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <h3 class="text-2xl font-semibold text-genis-cinza mb-4">✅ Critérios de Inclusão</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li> Hipertenso com diagnóstico há mais de 6 meses</li>
+                        <li> Em uso regular de medicação</li>
+                        <li> Idade ≥ 18 anos</li>
+                        <li> Acompanhamento regular</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold text-genis-cinza mb-4">❌ Critérios de Exclusão</h3>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li> Hipertensão secundária conhecida</li>
+                        <li> Doença cardiovascular descompensada</li>
+                        <li> Gestantes</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- A Equipe Genis (Credibilidade e Transparência) -->
+        <section class="mb-20 text-center bg-genis-roxo p-10 rounded-xl shadow-xl">
+            <h2 class="text-3xl text-branco mb-4">Genis: Rigor, Ética e Inovação.</h2>
+            <p class="text-lg text-cinza-claro max-w-3xl mx-auto mb-6">Nossa equipe é formada por doutores em genética e bioinformática com um compromisso inabalável com a transparência, confiança e ética. Atuamos para transformar conhecimento genético em aplicabilidade clínica de impacto positivo.</p>
+            
+            
+             <div class="flex justify-center">
+    <img src="Equipe.png" 
+         alt="Equipe"
+         class="max-w-full md:max-w-4xl rounded-xl shadow-lg my-8">
+  </div>
+
+        </section>
+        
+        <!-- Chamada para Ação Final (CTA e Formulário com Imagem Humanizada) -->
+        <section id="contato" class="max-w-4xl mx-auto grid md:grid-cols-5 gap-8 items-center bg-genis-laranja/10 p-10 rounded-xl shadow-2xl">
+            
+            <!-- Imagem Humanizada (Médico Sorrindo em forma circular) -->
+            <div class="md:col-span-2 text-center relative hidden md:block">
+                <img src="FotoProduto.jpg" 
+                     alt="Médico confiante sorrindo" 
+                     class="w-40 h-40 object-cover rounded-full mx-auto border-4 border-white shadow-xl transition duration-500 ease-in-out transform hover:scale-105">
+                <p class="mt-4 text-genis-laranja font-bold text-lg">Fale com Nossos Cientistas!</p>
+            </div>
+            
+            <div class="md:col-span-3 flex flex-col items-center text-center">
+                <h2 class="text-center md:text-left text-3xl font-extrabold text-genis-laranja mb-4">Pronto para a Inovação?</h2>
+                <p class="text-center md:text-left text-lg text-gray-700 mb-8"> <b>AGORA é o momento de aplicar a genética em sua instituição!</b> Preencha o formulário e nossa equipe de cientistas entrará em contato para detalhar o projeto e as condições de participação.</p>
+
+                <a href="https://forms.gle/jb5BWZbe39zqNNpv7" target="_blank"
+                    class="w-full bg-genis-laranja text-white font-semibold py-3 rounded-full text-lg text-center hover:bg-genis-laranja transition duration-300">
+                                          Quero Participar do Projeto
+                                       </a>
+
+
+            </div>
+        </section>
+
+
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-gray-100 mt-16 py-8">
+        <div class="container mx-auto px-4 text-center text-sm text-gray-500">
+            <p>&copy; 2022 Genis - Genetic and Innovative Solutions. Todos os direitos reservados.</p>
+            <p class="mt-2"> geneticsolution.br@gmail.com | www.genisdna.com.br </p>
+        </div>
+    </footer>
+
+</body>
+</html>
